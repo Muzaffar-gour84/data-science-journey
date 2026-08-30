@@ -1,0 +1,60 @@
+# Variables 
+Every variable holds a value, which
+is the information associated with that variable.
+Ex:
+a = 6
+name = "Muzaffar"
+
+
+# Naming the Variables 
+
+There are certain rules using them we can name the variables
+
+we can use numbers , alphabets, and underscore for the variable names.
+but we can not define a variable staring with number.
+
+Ex:
+these are the right ways to define the variable in the python -> message , _message, message1.
+not like this -> 1message
+
+We can not provide space in between the variables but we can use underscore to seprate the to name
+
+Ex: 
+student name -> wrong way
+student_name -> right way
+
+take the variable name descriptive and short.
+
+Ex: name is better than n
+    student_name is better than s_n.
+
+# Strings
+
+A string is a series of character. Anything inside the quetos is considerd string in the python.
+We can use single quotes or double also,
+
+Ex: "This is string"
+     'This is also a string'
+
+# Change The Case Of The String With Methods
+
+name = 'muzaffar hussain'
+print(name.title())
+
+o/p -> Muzaffar Hussain 
+
+Here with the help of title() method we have converted the every word of string in title case .
+
+A method is an action that python can perform on a piece of data.
+
+dot(.) after the name in the name.title() tells python to make the title() method act on the variable name.
+
+
+# Other methods also avaieble dealing with case 
+
+print(name.upper()) -> converts each letter in the uppercase
+print(name.lower()) -> converts each letter in the lower case 
+
+# Syntex Error 
+
+Sytex error occurs when the python does not recognize the a section of our code that as valid program.
