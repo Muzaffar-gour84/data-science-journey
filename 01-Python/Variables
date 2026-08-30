@@ -49,6 +49,8 @@ A method is an action that python can perform on a piece of data.
 
 dot(.) after the name in the name.title() tells python to make the title() method act on the variable name.
 
+# Concatination 
+we can combine two different strings.
 
 # Other methods also avaieble dealing with case 
 
