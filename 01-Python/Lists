@@ -1,0 +1,63 @@
+# List 
+List is a collection of items in a particular order.
+We can store different type elements inside the list.
+Basically list is haterogenious in nature.
+
+
+Ex: 
+name = ['muzaffar', 22, 'Tajpura', 4.5]
+
+# Acessing the list elements
+
+We can acess the list element by providing the index of that element.
+Indexing from zero in the list.
+
+Ex: 
+name[0] -> muzaffar 
+name[-1] -> 4.5 -> -1 is always returns the last value from the list
+
+# modifying elements inside the list
+
+name[0] = 'hussain'
+
+so muzaffar is replace by hussain.
+
+# Modifying the lsit using different methods
+
+
+guest_list.insert(0,'azeem')  -> adding new element at the of the lsit
+
+guest_list.insert(2,'shadan') -> adding new element in between of the list
+
+guest_list.append('huzaifa')  -> adding at last of the list
+
+# removing 
+
+del  -> del guest_list[0]
+pop  -> guest_list.pop(0)
+
+
+# Sorting a List Permanently with the sort() Method
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort
+cars.sort(reverse=True) -> Sorting in reverse order 
+print(cars)  
+
+o/p:
+['audi', 'bmw', 'subaru', 'toyota']
+
+
+# Sorting a List Temporarily with the sorted() Function
+
+cars.sorted()   
+
+
+# Printing a List in Reverse Order
+
+cars.reverse()  -> it just simply reverses the order
+
+
+# Finding the length of the lsit
+
+print(len(cars))
