@@ -159,3 +159,5 @@ dimensions = (400, 100)
 print("\nModified dimensions:")
 for dimension in dimensions:
 print(dimension)
+
+we can modifiy  the tuple instead of changing the direct value
