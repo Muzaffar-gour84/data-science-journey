@@ -1,0 +1,15 @@
+# Dictionary
+A dictionary in Python is a collection of key-value pairs.
+A key-value pair is a set of values associated with each other.
+
+EX:
+alien_0 = {'color': 'green', 'points': 5}
+
+The string color is a key and gree is its value
+
+# Accessing Values in a Dictionary
+ print(alien_0['color'])
+
+
+Dictionaries are dynamic structures, and we  can add new key-value pairs
+to a dictionary at any time.
